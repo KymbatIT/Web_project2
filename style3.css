@@ -1,0 +1,142 @@
+body{
+    background-color:rgb(219, 226, 235) !important;
+    color:rgb(0, 0, 0) !important;
+ }
+ .nav{
+     justify-content: flex-end;
+ }
+ .otels{
+     display: flex;
+     
+    
+     justify-content: space-evenly;
+     padding-right: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .image{
+     width: 350px;
+     min-width: 300px;
+     height: 250px;
+ }
+ .image1{
+     display: flex;
+     
+     width: 100%;
+     overflow: hidden;
+     border-radius: 3px;
+     
+ }
+ #pereiti{
+    margin-left: 680px; width: 150px;
+ }
+ .image1:hover{
+box-shadow: 0 5px 15px rgb(0, 0, 0);
+ }
+ .sozz{
+     text-align: center;
+     
+     
+ }
+
+ .bron{
+     text-align: center;
+     color:rgb(19, 11, 11)
+ }
+
+ .bron2{
+    text-align: center;
+    color:rgb(131, 23, 23)
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    
+
+
+    }
+
+
+    @media(max-width:768px) {
+        body{
+            text-align: center;
+            background-color:rgb(219, 226, 235) !important;
+            color:rgb(0, 0, 0) !important;
+         }
+         .nav{
+             justify-content: flex-end;
+             max-width: 300px;
+             right: 20px;
+         }
+         .otels{
+             display: flex;
+             flex-wrap: wrap;
+             
+             align-items: stretch;
+             justify-content: space-evenly;
+             padding-left: 38px;
+             margin-bottom: 20px;
+         }
+         .otel{
+             display: block;
+             flex-basis: 20%;
+             position: relative;
+        
+         }
+         .image{
+             width: 250px;
+             min-width: 300px;
+             height: 250px;
+         }
+         .image1{
+             display: flex;
+             align-items: flex-start;
+             width: 350px;
+             border-radius: 3px;
+             overflow: hidden;
+             
+         }
+         .image1:hover{
+        box-shadow: 0 5px 15px rgb(0, 0, 0);
+         }
+         #pereiti{
+            margin-left: 110px; width: 120px;
+
+         }
+         .sozz{
+             font-size: 25px;
+             text-align: center;
+             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             
+         }
+        
+         .bron{
+             font-size: smaller;
+             position: relative;
+             right: 20px;
+             color:rgb(19, 11, 11)
+         }
+        
+         .bron2{
+            text-align: center;
+            position: relative;
+            right: 13px;
+            color:rgb(131, 23, 23)
+        }
+        
+        footer{
+            max-width: 375px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            margin-top: 200px;
+            font-size: x-small;
+            position: relative;
+            right: 20px;
+        
+            }
+        
+    }

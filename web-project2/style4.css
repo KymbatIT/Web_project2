@@ -1,0 +1,100 @@
+body{
+    background-color:rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0) !important;
+ }
+ .question{
+    color: #b30000;
+ }
+ .nav{
+     justify-content: flex-end;
+ }
+ .pn{
+     text-align: center;
+     color:#b30000;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.tables{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.avia-com{
+display: block;
+}
+#select{
+   margin-left: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+
+
+    }
+
+
+
+    @media(max-width: 768px) {
+        body{
+            background-color:rgb(255, 255, 255) !important;
+            color:rgb(0, 0, 0) !important;
+         }
+         .nav{
+             justify-content: flex-end;
+             position: relative;
+             right: 30px;
+             max-width: 350px;
+         }
+         .pn{
+             text-align: center;
+             color:#b30000;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-size: 15px;
+         }
+        .tables{
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            max-width: 350px;
+        }
+        .column2{
+            max-width: 350px;
+        }
+        #id{
+            max-width: 350px;
+        }
+        .question{
+            color: #b30000;
+            font-size: smaller;
+            margin-left: 60px;
+            
+        }
+        #select{
+            margin-left: 30px;
+        }
+          #tab{
+            width: 5px;
+            height: auto;
+        }
+        .avia-com{
+        display: block;
+        }
+        
+        footer{
+            font-size: x-small;
+            position: relative;
+            right: 20px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            margin-top: 200px;
+        
+        
+            }
+        
+        
+    }
+
